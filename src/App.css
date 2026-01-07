@@ -1,8 +1,13 @@
-.app {
+.feedback-container {
   display: flex;
-  flex: 1;
-  
   flex-direction: column;
   align-items: center;
+  margin-top: 50px;
   gap: 30px;
+}
+.feedback {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 150px;
 }
